@@ -180,7 +180,7 @@ class ViewController: UIViewController {
             }
             if array[j] == array[j + 1]{
                 array.remove(at: j)
-                j = 0
+                j = -1
             }
             j += 1
             
