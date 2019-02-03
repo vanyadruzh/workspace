@@ -72,7 +72,7 @@ class ViewController: UIViewController {
         var result:String = ""
         while i >= endIndex{
             let index = something.index(something.startIndex, offsetBy: i)
-            result.append(String(something[index])   ) // "S"
+            result.append(String(something[index])   ) 
             i = i - 1
             
         }
